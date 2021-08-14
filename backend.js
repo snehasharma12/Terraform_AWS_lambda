@@ -33,7 +33,7 @@ exports.handler = function (event, context, callback) {
     
     const response = {
         statusCode: 200,
-        headers: { 'Access-Control-Allow-Origin': 'http://telecomnetworks.cf' },
+        headers: { 'Access-Control-Allow-Origin': 'http://snehasharma.tk' },
         body: JSON.stringify( 'Thank you, ' + params ['name'] + '! ' + 
                              'Your message is received by ' + params ['to'] + '! ' +
                              'She will contact you soon!! '),
